@@ -5,17 +5,16 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity // Avisa ao Spring que esta classe é uma tabela no banco de dados
+@Entity
 public class Tarefa {
 
-    @Id // Marca este campo como a Chave Primária (Primary Key)
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // O banco de dados vai gerar o ID automaticamente
+    @Id 
+    @GeneratedValue(strategy = GenerationType.IDENTITY) 
     private Long id;
 
     private String descricao;
     private boolean concluido;
 
-    // Getters e Setters (necessários para o Spring funcionar)
 
     public Long getId() {
         return id;
