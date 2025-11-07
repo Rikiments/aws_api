@@ -40,3 +40,8 @@ Abra o projeto na sua IDE.
 Instale as extensões Java/Spring Boot.
 Encontre e execute o arquivo principal: src/main/java/br/com/projeto/awsapi/AwsApiApplication.java.
 A API estará rodando em http://localhost:8080.
+
+## 4. Link Video - https://youtu.be/s3tMtcwlHtE
+
+
+
