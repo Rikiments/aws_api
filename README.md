@@ -36,6 +36,7 @@ E o /report do Lambda que retorna a quantidade total de todas as tarefas e a qua
 ## 3. Como rodar localmente
 
 ```bash
-cp .env.example .env         # configure variáveis
-docker compose up --build
-# API em http://localhost:3000
+Abra o projeto na sua IDE.
+Instale as extensões Java/Spring Boot.
+Encontre e execute o arquivo principal: src/main/java/br/com/projeto/awsapi/AwsApiApplication.java.
+A API estará rodando em http://localhost:8080.
