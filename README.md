@@ -33,7 +33,10 @@ E o /report do Lambda que retorna a quantidade total de todas as tarefas e a qua
 | Função  | AWS Lambda              | Consome a API, gera estatísticas JSON |
 | CI/CD   | CodePipeline + GitHub   | push → build → ECR → deploy |
 
-## 3. Como rodar localmente
+
+## 3. link do video - https://youtu.be/s3tMtcwlHtE
+
+## 4. Como rodar localmente
 
 ```bash
 Abra o projeto na sua IDE.
@@ -41,7 +44,6 @@ Instale as extensões Java/Spring Boot.
 Encontre e execute o arquivo principal: src/main/java/br/com/projeto/awsapi/AwsApiApplication.java.
 A API estará rodando em http://localhost:8080.
 
-## 4. Link Video - https://youtu.be/s3tMtcwlHtE
 
 
 
