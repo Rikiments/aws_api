@@ -10,6 +10,16 @@
 
 ## 1. Visão geral
 <!-- Descreva rapidamente o domínio escolhido, por que foi selecionado e o que o CRUD faz. -->
+O domínio escolhido para o projeto foi um Sistema de Gerenciamento de Tarefas. A principal entidade é a Tarefa, que tem os seguintes atributos: id, descricao, titulo e concluido.
+Escolhemos esse tema porque ele é simples e direto, sem muita complexidade.
+O crud faz as seguintes ações:
+POST /api/tarefas – Cria uma nova tarefa. Recebe um JSON com a descrição e o status de concluída ou não.
+GET /api/tarefas – Retorna todas as tarefas cadastradas no banco em formato JSON.
+GET /api/tarefas/{id} – Retorna uma tarefa específica pelo seu ID.
+PUT /api/tarefas/{id} – Atualiza a descrição ou o status de uma tarefa existente.
+DELETE /api/tarefas/{id} – Remove uma tarefa do banco de dados.
+E o /report do Lambda que retorna a quantidade total de todas as tarefas e a quantide de tarefas concluidas e pendentes.
+
 
 ## 2. Arquitetura
 
