@@ -23,7 +23,7 @@ E o /report do Lambda que retorna a quantidade total de todas as tarefas e a qua
 
 ## 2. Arquitetura
 
-![Diagrama](docs/arquitetura.png)
+![Diagrama](diagrama1.png)
 
 | Camada | Serviço | Descrição |
 |--------|---------|-----------|
